@@ -14,7 +14,7 @@ class Employee(BaseModel):
 # GET request
 @app.get("/")   
 def read_root():
-    return {"message": "Welcome to REST API"}
+    return {"message": " Welcome to REST API "}
 
 # POST req
 @app.post("/employee/")

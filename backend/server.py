@@ -31,7 +31,7 @@ class EmployeeUpdate(BaseModel):
 #     return emp
 
 
-employee = {}
+employee =  {}
 
 
 @app.get("/")
